@@ -1,3 +1,0 @@
-(step
-  (set add +)
-  (print (add 1 2 3))) ; 6

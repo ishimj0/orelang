@@ -1,0 +1,7 @@
+["step",
+  ["func", "square", ["step",
+    ["set", "v", ["pop"]],
+    ["*", ["get", "v"], ["get", "v"]]
+  ]],
+  ["print", ["call", "square", 5]]
+]

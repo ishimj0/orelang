@@ -1,0 +1,9 @@
+["step",
+  ["set", "v", 1],
+  ["func", "f", ["step",
+    ["set", "v", 2],
+    ["print", ["get", "v"]]
+  ]],
+  ["call", "f"],
+  ["print", ["get", "v"]]
+]

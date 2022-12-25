@@ -1,4 +1,0 @@
-(step
-  (def square
-    (lambda (v) (* v v)))
-  (print (square 5))) ; 25
